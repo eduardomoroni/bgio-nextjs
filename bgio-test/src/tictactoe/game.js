@@ -83,4 +83,8 @@ const TicTacToe = {
   },
 };
 
+export function clickCell({ G, playerID }, id) {
+  G.cells[id] = playerID;
+}
+
 export default TicTacToe;
